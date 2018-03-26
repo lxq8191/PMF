@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # choose dataset to process
-dataset = 'ml-1m'
+dataset = 'ml-100k'
 raw_data_path = os.path.join(os.getcwd(), 'data', dataset, 'ratings.dat')
 processed_data_path = os.path.join(os.getcwd(), 'processed_data', dataset)
 
